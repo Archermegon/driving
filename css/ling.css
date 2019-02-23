@@ -1,0 +1,5 @@
+#wrapper .intro>ul:nth-child(2)>li{padding: 0;margin-bottom: 0;}
+
+.lingjie{font-size: 15px;padding: 0.3rem;}
+.lingh{display: flex;line-height: 1.5rem;justify-content: space-around;}
+.lingjie>p{border: 1px dashed #ededed;padding:0.2rem 0.1rem;line-height: 0.4rem;}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/detail.css">
+  <link rel="stylesheet" href="css/changyonyk.css">
+  <style>
+  .main-add{padding-bottom: 10rem;font-size: 15px; }
+  .main-add>form{padding:0.15rem;font-size: 15px; }
+  .add-new{display: flex;border-bottom: 1px solid #dcdcdc;line-height: 0.5rem;justify-content: space-between;}
+  .add-new>input{border: none;width: 56%;color: #ccc;font-size: 15px;outline: none;}
+  .add-new>label{width: 30%;padding-left: 0.38rem;}
+  .add-new>select{width: 56%;border: none;outline: none;}
+  </style>
+  <title>添加常用游客</title>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div class="top">
+      <a href="tianding.html" class="return">
+        <i class="iconfont icon-left">&#xe8f7;</i>
+      </a>
+      <div class="slogan">
+        <h3>添加常用游客</h3>
+      </div>
+      <a href="tianding.html" class="return">
+        保存
+      </a>
+    </div>
+    <div class=" main-add">
+      <form action="" method="post">
+            <div class="add-new">
+              <label for="name">姓名</label>
+              <input id="name" value="必填" type="text" />
+             </div>
+            <div class="add-new">
+              <label for="kind">证件类型</label>
+              <select name="" id="">
+                <option value="">暂无证件</option>
+                <option value="">身份证</option>
+                <option value="">护照</option>
+              </select>
+            </div>
+            <div class="add-new">
+              <label for="name">证件号码</label>
+              <input id="name" value="必填" type="text" />
+            </div>
+            <div class="add-new">
+              <label for="name">手机</label>
+              <input id="name" value="选填" type="text" />
+            </div>
+      </form>
+      </div>
+  </div>
+  <script>
+    document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px';
+  </script>
+</body>
+
+</html>
